@@ -17,7 +17,7 @@
 package core
 
 import (
-	"gerrit.opencord.org/voltha-bbsim/common/logger"
+	logger "github.com/sirupsen/logrus"
 )
 
 func OmciSim(intfId uint32, onuId uint32, request []byte) ([]byte, error) {

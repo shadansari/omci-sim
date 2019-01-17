@@ -20,7 +20,7 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"gerrit.opencord.org/voltha-bbsim/common/logger"
+	logger "github.com/sirupsen/logrus"
 )
 
 type OmciMsgHandler func(class OmciClass, content OmciContent, key OnuKey) ([]byte, error)
